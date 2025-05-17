@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #faf9f9;
+        color: #1b1b1b;
+        margin: 0;
+        line-height: 1.6;
+      }
+      a {
+        color: #2283c8;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 50%;
+      }
+      .container {
+        width: 90%;
+        max-width: 900px;
+        margin: 2rem auto 4rem;
+        background: rgb(214, 212, 212);
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      }
+      header {
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #0077cc;
+      }
+      header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.2rem;
+      }
+      header p.bio {
+        font-size: 1.1rem;
+        color: #555;
+        max-width: 600px;
+        margin: 0.4rem auto 0;
+      }
+      .profile-photo {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin: 0 auto 1rem;
+        display: block;
+        border: 5px solid #1d9ae8;
+      }
+      section {
+        margin-bottom: 2.5rem;
+      }
+      section h2 {
+        border-bottom: 2px solid #222d35;
+        padding-bottom: 0.3rem;
+        margin-bottom: 1rem;
+        color: #253c4d;
+      }
+
+      .projects-list {
+        list-style: none;
+        padding-left: 0;
+      }
+      .projects-list li {
+        margin-bottom: 1rem;
+      }
+      .projects-list li strong {
+        font-weight: 600;
+        color: #004080;
+      }
+
+      .skills-list {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+      }
+      .skills-list li {
+        background-color: #2a4558;
+        color: rgb(249, 247, 247);
+        padding: 0.5rem 1rem;
+        border-radius: 15px;
+        font-size: 0.9rem;
+      }
+
+      .contact-info {
+        font-size: 1rem;
+      }
+      .contact-info span {
+        display: inline-block;
+        margin-bottom: 0.5rem;
+      }
+      .contact-info a {
+        color: #1b6ea8;
+        font-weight: 600;
+      }
+
+      .edu-exp {
+        list-style-type: disc;
+        margin-left: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          src="https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg"
+          alt="Profile Photo"
+          class="profile-photo"
+        />
+        <h1>Saqib zahir</h1>
+        <p class="bio">
+          A passionate web developer focused on creating beautiful and
+          functional web experiences.
+        </p>
+      </header>
+
+      <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Saqib, a self-taught front-end developer with a love for
+          clean design and intuitive user experiences. I enjoy turning ideas
+          into reality using modern web technologies.
+        </p>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul class="projects-list">
+          <li>
+            <strong>Portfolio Website:</strong> A responsive portfolio
+            showcasing my work and skills using HTML and CSS .
+          </li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ul class="edu-exp-achieve-list">
+          <li>
+            Bachelor of Science in Software Engineering – Islamia College
+            Peshawar
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+          <span
+            >Email:
+            <a href="saqibzahir1112@gmail.com"
+              >saqibzahir1112@gmail.com</a
+            ></span
+          ><br />
+          <span>Phone: +92 316 5296112</span><br />
+          <span
+            >Instagram:
+            <a
+              href="https://instagram.com/its_saqib_zahir"
+              target="_blank"
+              
+              >instagram.com/its_saqib_zahir</a
+            ></span
+          >
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
